@@ -20,5 +20,13 @@ git add .
 git commit -m "init test push to alpha branch"
 git push --set-upstream origin alpha
 
+# view status, add, commit and push master
+git status
+git checkout master
+-- update file
+git add .
+git commit -m "update file use master"
+git push -u origin master
+
 
 
